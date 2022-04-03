@@ -8,8 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <title>Harsh Malviya</title>
+
+    <style>
+        .navi, .infoi {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .infoi {
+            z-index: 10;
+        }
+
+
+        html, body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            /* background-color: #333; */
+            /* overflow: hidden; */
+        }
+    </style>
+
+
 </head>
-<body class="bg-black bg-blend-darken bg-fixed bg-cover bg-opacity-50 bg-no-repeat" style="background-image: url('./22.jpg');">
+<body class="bg-black bg-fixed bg-cover bg-no-repeat" >
 
 
     <!-- ########## Nav Bar Start ########## -->
@@ -23,7 +47,7 @@
                     <li ><a class="hover:text-red-400 duration-500" href="#home">Home</a></li>
                     <li ><a class="hover:text-red-400 duration-500" href="#about">About</a></li>
                     <li ><a class="hover:text-red-400 duration-500" href="#skills">Skills</a></li>
-                    <li ><a class="hover:text-red-400 duration-500" href="./projects.html" target="_blank">Projects</a></li>
+                    <li ><a class="hover:text-red-400 duration-500" href="#">Projects</a></li>
                     <li ><a class="hover:text-red-400 duration-500" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -32,9 +56,14 @@
     <!-- ########## Nav Bar End ########## -->
     
     
+    <canvas id="nokey" class="infoi" width="800" height="800">
+        Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+    </canvas>
+
+
     
     <!-- ########## Landing Page ########## -->
-    <div class="h-fit" id="home">
+    <div class="h-fit " id="home ">
         <div class="flex">
             <div class="text-white content-center my-36 px-12 font-shadow">
                 <p class="text-3xl font-thin pt-10">Hello, My Name is</p>
@@ -63,13 +92,10 @@
                     <h1 class="text-3xl font-semibold font-shadow ">I'm Harsh Malviya</h1>
                 <p class="pt-7 text-lg pr-10">
                     My name is Harsh Malviya. I'm 19 years old and right now I doing B.Tech in the field of Computer Science Student at Sagar Institute of Research and Technology Science. I have completed my Higher Education from Demonstration Multipurpose School (RIE) Bhopal.
-                    I was born and raised in Bhopal. I'm very interested about new technologies and how do they work, I spend most of my time learning about them. An engineering fresher who is a self-starter and capable to use technical skills for the betterment of the organization. 
-                    Seeking an entry level opportunity where I can utilize my skills. Capable of mastering new skills.
-                    Aiming to leverage proven creative thinking, teamwork, and technical skills to successfully fill the Software Engineer role 
-                    at your company. Frequently praised as hard-working by my peers. I can be relied upon to help your company achieve its 
-                    goals
+                    I was born and raised in Bhopal. I'm very interested about new technologies and how do they work, I spend most of my time learning about them, I also love to watch Sci-fi movies.
+                    Life is full of surprises and there are lot of challenges and I believe there are still many things I have to learn but I will try to look to the positive side and try my best to be the best.
                 </p>
-                <button class="bg-red-600 text-center mt-5 py-3 px-6 rounded-lg text-white font-bold hover:bg-red-500 duration-500 "> <a href="https://drive.google.com/file/d/1zRZOWPkIchoPsKMWhPZBPSu2Mbxa9oW6/view?usp=sharing" target="_blank"> Download Resume </a></button>
+                <button class="bg-red-600 text-center mt-5 py-3 px-6 rounded-lg text-white font-bold hover:bg-red-500 duration-500 "> <a href="#"> Download Resume </a></button>
             </div>
         </div>
     </div>
@@ -92,8 +118,7 @@
 
                     If you want to know more about my Skills and Certifications please visit my <span class="font-semibold"> LinkedIn profile below here </span> :
                 </p>
-                <button class="bg-red-600 text-center mt-5 py-3 px-6 rounded-lg text-white font-bold hover:bg-red-500 duration-500"> <a href="https://www.linkedin.com/in/harsh-malviya/" target="_blank"> Know More </a></button>
-                <button class="bg-red-600 text-center mt-5 py-3 px-6 rounded-lg text-white font-bold hover:bg-red-500 duration-500"> <a href="./projects.html" target="_blank"> My Projects </a></button>
+                <button class="bg-red-600 text-center mt-5 py-3 px-6 rounded-lg text-white font-bold hover:bg-red-500 duration-500"> <a href="#"> Know More </a></button>
             </div>
             <div class="p-5">
             
@@ -141,13 +166,13 @@
 
 <!-- ########## Footer ########## -->
 <footer class="bg-white" id="contact">
-    <div class="flex flex-row justify-center gap-10 pt-8">
-        <a href="https://www.facebook.com/harshmalviya97/"><img class="w-8 hover:w-10 duration-700" src="./facebook.png" alt=""></a>
-        <a href="https://github.com/harshjr97"><img class="w-8 hover:w-10 duration-700" src="./github.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/harsh-malviya/"><img class="w-8 hover:w-10 duration-700" src="./linkedin.png" alt=""></a>
-        <a href="https://www.instagram.com/harshjr97/"><img class="w-8 hover:w-10 duration-700" src="./instagram.png" alt=""></a>
+    <div class="flex flex-row justify-center gap-10">
+        <a href="https://www.facebook.com/harshmalviya97/"><img src="./facebook.png" alt=""></a>
+        <a href="https://github.com/harshjr97"><img src="./github.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/harsh-malviya/"><img src="./linkedin.png" alt=""></a>
+        <a href="https://www.instagram.com/harshjr97/"><img src="./instagram.png" alt=""></a>
     </div>
-    <p class="text-center font-extralight py-2">Made with &#128151 and &#9749 @ Harsh Malviya 2022</p>
+    <p class="text-center font-extralight">Made with &#128151 @ Harsh Malviya</p>
 </footer>
 <!-- ########## Footer End ########## -->
 
@@ -155,4 +180,285 @@
 
 
 </body>
+
+<script>
+
+    
+    var canvas = document.getElementById('nokey'),
+   can_w = parseInt(canvas.getAttribute('width')),
+   can_h = parseInt(canvas.getAttribute('height')),
+   ctx = canvas.getContext('2d');
+
+// console.log(typeof can_w);
+var BALL_NUM = 30
+
+var ball = {
+      x: 0,
+      y: 0,
+      vx: 0,
+      vy: 0,
+      r: 0,
+      alpha: 1,
+      phase: 0
+   },
+   ball_color = {
+       r: 207,
+       g: 255,
+       b: 4
+   },
+   R = 2,
+   balls = [],
+   alpha_f = 0.03,
+   alpha_phase = 0,
+    
+// Line
+   link_line_width = 0.8,
+   dis_limit = 260,
+   add_mouse_point = true,
+   mouse_in = false,
+   mouse_ball = {
+      x: 0,
+      y: 0,
+      vx: 0,
+      vy: 0,
+      r: 0,
+      type: 'mouse'
+   };
+
+// Random speed
+function getRandomSpeed(pos){
+    var  min = -1,
+       max = 1;
+    switch(pos){
+        case 'top':
+            return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
+            break;
+        case 'right':
+            return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
+            break;
+        case 'bottom':
+            return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
+            break;
+        case 'left':
+            return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
+            break;
+        default:
+            return;
+            break;
+    }
+}
+function randomArrayItem(arr){
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+function randomNumFrom(min, max){
+    return Math.random()*(max - min) + min;
+}
+console.log(randomNumFrom(0, 10));
+// Random Ball
+function getRandomBall(){
+    var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
+    switch(pos){
+        case 'top':
+            return {
+                x: randomSidePos(can_w),
+                y: -R,
+                vx: getRandomSpeed('top')[0],
+                vy: getRandomSpeed('top')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+        case 'right':
+            return {
+                x: can_w + R,
+                y: randomSidePos(can_h),
+                vx: getRandomSpeed('right')[0],
+                vy: getRandomSpeed('right')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+        case 'bottom':
+            return {
+                x: randomSidePos(can_w),
+                y: can_h + R,
+                vx: getRandomSpeed('bottom')[0],
+                vy: getRandomSpeed('bottom')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+        case 'left':
+            return {
+                x: -R,
+                y: randomSidePos(can_h),
+                vx: getRandomSpeed('left')[0],
+                vy: getRandomSpeed('left')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+    }
+}
+function randomSidePos(length){
+    return Math.ceil(Math.random() * length);
+}
+
+// Draw Ball
+function renderBalls(){
+    Array.prototype.forEach.call(balls, function(b){
+       if(!b.hasOwnProperty('type')){
+           ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
+           ctx.beginPath();
+           ctx.arc(b.x, b.y, R, 0, Math.PI*2, true);
+           ctx.closePath();
+           ctx.fill();
+       }
+    });
+}
+
+// Update balls
+function updateBalls(){
+    var new_balls = [];
+    Array.prototype.forEach.call(balls, function(b){
+        b.x += b.vx;
+        b.y += b.vy;
+        
+        if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)){
+           new_balls.push(b);
+        }
+        
+        // alpha change
+        b.phase += alpha_f;
+        b.alpha = Math.abs(Math.cos(b.phase));
+        // console.log(b.alpha);
+    });
+    
+    balls = new_balls.slice(0);
+}
+
+// loop alpha
+function loopAlphaInf(){
+    
+}
+
+// Draw lines
+function renderLines(){
+    var fraction, alpha;
+    for (var i = 0; i < balls.length; i++) {
+        for (var j = i + 1; j < balls.length; j++) {
+           
+           fraction = getDisOf(balls[i], balls[j]) / dis_limit;
+            
+           if(fraction < 1){
+               alpha = (1 - fraction).toString();
+
+               ctx.strokeStyle = 'rgba(150,150,150,'+alpha+')';
+               ctx.lineWidth = link_line_width;
+               
+               ctx.beginPath();
+               ctx.moveTo(balls[i].x, balls[i].y);
+               ctx.lineTo(balls[j].x, balls[j].y);
+               ctx.stroke();
+               ctx.closePath();
+           }
+        }
+    }
+}
+
+// calculate distance between two points
+function getDisOf(b1, b2){
+    var  delta_x = Math.abs(b1.x - b2.x),
+       delta_y = Math.abs(b1.y - b2.y);
+    
+    return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
+}
+
+// add balls if there a little balls
+function addBallIfy(){
+    if(balls.length < BALL_NUM){
+        balls.push(getRandomBall());
+    }
+}
+
+// Render
+function render(){
+    ctx.clearRect(0, 0, can_w, can_h);
+    
+    renderBalls();
+    
+    renderLines();
+    
+    updateBalls();
+    
+    addBallIfy();
+    
+    window.requestAnimationFrame(render);
+}
+
+// Init Balls
+function initBalls(num){
+    for(var i = 1; i <= num; i++){
+        balls.push({
+            x: randomSidePos(can_w),
+            y: randomSidePos(can_h),
+            vx: getRandomSpeed('top')[0],
+            vy: getRandomSpeed('top')[1],
+            r: R,
+            alpha: 1,
+            phase: randomNumFrom(0, 10)
+        });
+    }
+}
+// Init Canvas
+function initCanvas(){
+    canvas.setAttribute('width', window.innerWidth);
+    canvas.setAttribute('height', window.innerHeight);
+    
+    can_w = parseInt(canvas.getAttribute('width'));
+    can_h = parseInt(canvas.getAttribute('height'));
+}
+window.addEventListener('resize', function(e){
+    console.log('Window Resize...');
+    initCanvas();
+});
+
+function goMovie(){
+    initCanvas();
+    initBalls(BALL_NUM);
+    window.requestAnimationFrame(render);
+}
+goMovie();
+
+// Mouse effect
+canvas.addEventListener('mouseenter', function(){
+    console.log('mouseenter');
+    mouse_in = true;
+    balls.push(mouse_ball);
+});
+canvas.addEventListener('mouseleave', function(){
+    console.log('mouseleave');
+    mouse_in = false;
+    var new_balls = [];
+    Array.prototype.forEach.call(balls, function(b){
+        if(!b.hasOwnProperty('type')){
+            new_balls.push(b);
+        }
+    });
+    balls = new_balls.slice(0);
+});
+canvas.addEventListener('mousemove', function(e){
+    var e = e || window.event;
+    mouse_ball.x = e.pageX;
+    mouse_ball.y = e.pageY;
+    // console.log(mouse_ball);
+});
+
+
+</script>
+
 </html>
