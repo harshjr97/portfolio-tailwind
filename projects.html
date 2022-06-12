@@ -8,307 +8,207 @@
     <link rel="stylesheet" href="./style.css">
     <title>Projects - Harsh Malviya</title>
 </head>
-<body class="bg-zinc-900">
+<body class="bg-zinc-900 text-teal-50">
+
 
     <div class="container mx-auto">
 
-
-        <div class="text-center py-6 font-semibold">
-            <h1 class="text-white text-3xl sm:text-5xl  animate-pulse">List of My Projects</h1>
-        </div>
-
-
-        <!-- ########## CARD COMPONENT ########## -->
-        <!-- <div class="bg-white rounded-lg m-5 p-5">
-            <h1 class="text-center text-3xl font-semibold my-2">Project Name</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem et tenetur tempore doloremque praesentium, quidem qui ipsa facilis sit nemo.
-                    <div class="grid grid-cols-2 ">
-                        <button class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-bold">Source Code</button>
-                        <button class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-bold">Live Demo</button>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="mx-auto border rounded-lg " src="./22.jpg" alt="">
-                </div>
-            </div>
-        </div> -->
-        <!-- ########## CARD COMPONENT END ########## -->
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-700">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">Netflix Frontend Clone</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">Created Netflix Welcome Page Frontend Clone using Tailwind CSS which is  basically a utility-first CSS framework for rapidly building custom user interfaces.</h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>HTML</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/netflix-clone-tailwind" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <a href="https://netflix-clone-tailwind.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-                <div class="">
-                    <div id="default-carousel" class="relative" data-carousel="static">
-                        <!-- Carousel wrapper -->
-                        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
-                             <!-- Item 1 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                                <img src="./Screenshot (268).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                            <!-- Item 2 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="./Screenshot (269).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                            <!-- Item 3 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="./Screenshot (270).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                            <!-- Item 4 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="./Screenshot (272).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                        </div>
-                        <!-- Slider indicators -->
-                        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                        </div>
-                        <!-- Slider controls -->
-                        <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-                            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                                <span class="hidden">Previous</span>
-                            </span>
-                        </button>
-                        <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
-                            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                                <span class="hidden">Next</span>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-700">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">Customer Relationship Management</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">To Provide easy and effective way to manage customers order and queries using an online website. Enabled user/customers to keep track of orders, delivery status and user account with authentication. Ability to search customer information using multi-parameter search form. Login Logout Authentication & password resetting.
-                        </h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>HTML / CSS / Bootstrap</li>
-                        <li>SQLite</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/CRM-Django" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <!-- <a href="https://netflix-clone-tailwind.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a> -->
-                    </div>
-                </div>
-                <div class="">
-                    <div id="default-carousel" class="relative" data-carousel="static">
-                        <!-- Carousel wrapper -->
-                        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
-                             <!-- Item 1 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                                <img src="./Screenshot (274).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                            <!-- Item 2 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="./Screenshot (275).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                            <!-- Item 3 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="./Screenshot (276).png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-                            </div>
-                            
-                        </div>
-                        <!-- Slider indicators -->
-                        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                        </div>
-                        <!-- Slider controls -->
-                        <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-                            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                                <span class="hidden">Previous</span>
-                            </span>
-                        </button>
-                        <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
-                            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                                <span class="hidden">Next</span>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-
-
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-1000">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">Facebook Frontend Clone</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">Created Facebook Frontend Clone only Desktop friendly using Tailwind CSS which is  basically a utility-first CSS framework for rapidly building custom user interfaces.</h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>HTML</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/facebook-tailwind" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <a href="https://facebook-clone-desktop-only.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="mx-auto border rounded-lg " src="./Screenshot (273).png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-        
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-1000">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">To-Do Web App</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">ToDo List App is a kind of app that generally used to maintain our day-to-day tasks. It is helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed (CRUD). 
-
-                    </h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>HTML / CSS / Bootstrap</li>
-                        <li>SQLite</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/Todo_django" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <!-- <a href="https://facebook-clone-desktop-only.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a> -->
-                    </div>
-                </div>
-                <div class="">
-                    <img class="mx-auto border rounded-lg " src="./tododjango.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-1000">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">Link Utils & Youtube Video Downloader</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">Simple Website which can be used to short long ugly looking URL into short and sweet tiny URL. Whereas, Youtube Video Downloader which can be used to download videos from Youtube. 
-                    </h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>HTML / CSS / Bootstrap</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/linkutils" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <!-- <a href="https://facebook-clone-desktop-only.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a> -->
-                    </div>
-                </div>
-                <div class="">
-                    <img class="mx-auto border rounded-lg " src="./linkutil.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-1000">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">Language Translator</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">Created a simple language translator with speech and copy feature using web api. (desktop friendly only)
-                    </h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/Javascript-Projects/tree/main/Language%20Translator" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <a href="https://lang2lang.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="mx-auto border rounded-lg " src="./translator_js.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-
-        <!-- START -->
-        <div class="bg-white rounded-lg m-5 sm:m-28 p-5 sm:p-8 hover:sm:mx-20 hover:mx-1 duration-1000">
-            <h1 class="text-center text-3xl sm:text-5xl font-semibold py-3">Travel Website</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="m-4">
-                    <h1 class="text-xl sm:text-3xl font-thin">Created a Travel website with fully responsive for all devices for practice styling.
-                    </h1>
-                    <p class="font-bold text-xl sm:text-2xl pt-5">Using : 
-                    <ul class="pl-5 list-disc">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                    </p>
-                    <div class="grid grid-cols-2 py-4">
-                        <a href="https://github.com/harshjr97/travel-website" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Source Code</a>
-                        <a href="https://2destiny.netlify.app/" class="w-fit bg-red-600 text-center text-sm px-2 py-1 sm:mt-5 sm:py-3 sm:px-6 rounded-lg text-white font-thin sm:font-bold" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="mx-auto border rounded-lg " src="./travel_website.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- END -->
-
-
-
-
+    <div class="text-center my-10 lg:text-6xl md:text-4xl sm:text-4xl text-5xl font-bold">
+        <h1 class="hover:text-teal-100 animate-pulse">List of My Projects</h1>
     </div>
 
+    <div class="flex justify-center">
 
-    <script src="./flowbite/dist/flowbite.js"></script>
+        <div class="text-center grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8">
+
+            <!-- Card Start 1 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Telsa Clone</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This is a cloned website of the official tesla page built with react js. The page has similar sections, making it a lot easier to builed reusable components with react.</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/tesla-clone" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="https://tesla-clone-project-1.vercel.app/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Demo
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 1 -->
+            
+            <!-- Card Start 2 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./Screenshot (274).png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Customer Relationship Management</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">To Provide easy and effective way to manage customers order and queries using an online website. Enabled user to keep track of orders, delivery status and user account with authentication.</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/CRM-Django" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 2 -->
+
+            <!-- Card Start 3 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./Screenshot (273).png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Facebook Frontend Clone</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Created Facebook Frontend Clone only Desktop friendly using Tailwind CSS which is basically a utility-first CSS framework for rapidly building custom user interfaces.</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/facebook-tailwind" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="https://facebook-clone-desktop-only.netlify.app/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Demo
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 3 -->
+
+            <!-- Card Start 4 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./Screenshot (268).png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Netflix Frontend Clone</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Created Netflix Welcome Page Frontend Clone using Tailwind CSS which is basically a utility-first CSS framework for rapidly building custom user interfaces.</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/netflix-clone-tailwind" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="https://netflix-clone-tailwind.netlify.app/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Demo
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 4 -->
+
+            <!-- Card Start 5 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./tododjango.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">To-Do Web App</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">ToDo List App is a kind of app that generally used to maintain our day-to-day tasks. It is helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed (CRUD).</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/Todo_django" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 5 -->
+
+            <!-- Card Start 6 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./linkutil.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Link Utils</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Simple Website which can be used to short long ugly looking URL into short and sweet tiny URL.</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/linkutils" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 6 -->
+
+            <!-- Card Start 7 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./travel_website.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Language Translator</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Created a simple language translator with speech and copy feature using web api. (desktop friendly only).</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/Javascript-Projects/tree/main/Language%20Translator" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="https://lang2lang.netlify.app/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Demo
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End 7 -->
+
+            <!-- Card Start 7 -->
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="./login-background.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Travel Website</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Created a Travel website with fully responsive for all devices for practice styling.</p>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/harshjr97/travel-website" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            GitHub
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="https://2destiny.netlify.app/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Demo
+                            <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card End  -->
+
+
+        </div>
+    </div>
+
+    <div class="mt-10 bottom-0 left-0 right-0 bg-slate-700 py-3">
+        <p class="text-center text-sm font-thin">2022 @ Harsh Malviya</p>
+    </div>
+
+</div>
 </body>
 </html>
